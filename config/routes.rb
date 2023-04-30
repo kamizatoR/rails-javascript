@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :usrs
   get 'notifications/create'
   get 'notifications/index'
   get 'likes/create'
